@@ -91,6 +91,22 @@
                     Sobrevivência Zombie é um shooter 3D de Sobrevivência onde o jogador precisa derrotar todos os zombies que vem em sua direção</h5>
             </div>
         </div>
+        <div class="row"> 
+            <div class="col-md-3 mt-3">
+                <ul class="navbar-nav ms-auto">
+                    <li class="btn btn__custom nav-item mx-2 my-1">
+                        <a class="nav-link" href="https://github.com/Hugo-Novo-Gouvea/Zombie-Game" target="_blank">GIT HUB</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-3">
+                <ul class="navbar-nav ms-auto">
+                    <li class="btn btn__custom nav-item mx-2 my-1" onclick="downloadGame()">
+                        <a class="nav-link">DOWNLOAD</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <br>
         <br>
     </div>
@@ -109,6 +125,19 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function downloadGame() {
+            var pdfUrl = '../../biulds/';
+
+            var link = document.createElement('a');
+            link.href = pdfUrl;
+            link.download = 'Sobrevivencia_Zumbie.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
