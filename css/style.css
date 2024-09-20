@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
   body {
     background: rgb(17,17,17);
-    background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
   }
 
   /* CARDS */
@@ -29,14 +34,6 @@
   /* carousel */
   .carousel {
     margin-top: 3rem !important;
-  }
-
-  /* h3 */
-  h3 {
-    background: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
   }
   
   a {
