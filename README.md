@@ -1,3 +1,5 @@
 # Site de portfólio de jogos
 
-Versão HTML pura
+Portfólio contendo os jogos que desenvolvi para estudo
+
+Link para o site: https://hugo-novo-gouvea.github.io/Web-SitePortfolioGamesHTML/
